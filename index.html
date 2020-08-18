@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guesser Number Game</title>
+    <!-- SKELETON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1>Number Guesser</h1>
+                <p>Guess a number between 1 and 10 (You have 3 chances)</p>
+            </div>
+        </div>
+        <form id="form">
+            <div class="row">
+                <div class="six columns">
+                    <input type="number" class="u-full-width" placeholder="Enter your guess" id="number-guess" min="1" max="10" autofocus>
+                </div>
+                <div class="two columns">
+                    <input type="submit" class="button button-primary" id="btnSubmit" value="send">
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="six columns">
+                <div class="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
